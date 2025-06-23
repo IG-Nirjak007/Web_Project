@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Weather App</title>
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    label{
+        display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <label for="email">Email</label>
+      <input type="text" placeholder="Username or Email" required>
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account?<br> <a href="register.php">Register here</a></p>
+    <p><a href="home.php">← Back to Home</a></p>
+  </div>
+</body>
+</html>
+ 
