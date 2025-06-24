@@ -2,7 +2,7 @@
 // DB connection info
 $host = "localhost";
 $user = "root";
-$pass = ""; // for XAMPP or default MySQL
+$pass = "root"; // for XAMPP or default MySQL
 $dbname = "weather_app";
 
 // Connect to DB

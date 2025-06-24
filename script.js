@@ -28,7 +28,8 @@ function weatherShowFn(data) {
 	$('#date').text(moment().
 		format('MMMM Do YYYY, h:mm:ss a')); // Corrected date format to include year
 	$('#temperature').
-		html(`${Math.round(data.main.temp)}°C`); // Rounded temperature
+	html(`${Math.round(data.main.temp)}&deg;C`);
+ // Rounded temperature
 	$('#description').
 		text(data.weather[0].description);
 	$('#wind-speed').
