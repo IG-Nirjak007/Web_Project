@@ -3,7 +3,10 @@ body {
     background: #f0f2f5;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #4CAF50, #2196F3);
+    background: url("https://th.bing.com/th/id/OIP.RYIHSBcDzRLyBGF8CvCGYAHaEo?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3");
+       background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
   }
   
   header {
